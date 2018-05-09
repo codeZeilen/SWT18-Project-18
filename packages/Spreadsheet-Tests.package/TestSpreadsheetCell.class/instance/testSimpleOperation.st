@@ -3,7 +3,6 @@ testSimpleOperation
 	
 	| operation |
 	operation := '=1 + 1'.
-	
 	cell contents: operation.
 	
 	cell perform: #crAction.
